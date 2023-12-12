@@ -1,6 +1,5 @@
 import * as S from './styles'
 import perfil from '../../assets/perfil.jpeg'
-import Typist from 'react-typist'
 import Links from '../../Links'
 const Hero = () => {
   return (
@@ -26,9 +25,7 @@ const Hero = () => {
         </div>
       </S.Container>
       <S.TextContainer>
-        <Typist avgTypingDelay={100} stdTypingDelay={0}>
-          <span>JUNTOS TRANSFORMAREMOS DESAFIOS EM INOVAÇÃO!</span>
-        </Typist>
+        <span>JUNTOS TRANSFORMAREMOS DESAFIOS EM INOVAÇÃO!</span>
       </S.TextContainer>
     </>
   )
