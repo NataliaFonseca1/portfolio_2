@@ -11,7 +11,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#000022',
+              color: '#fff',
               size: '25px',
               className: 'global-style'
             }}
@@ -29,7 +29,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#000022',
+              color: '#ffff',
               size: '25px',
               className: 'global-style'
             }}
@@ -47,7 +47,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#000022',
+              color: '#fff',
               size: '25px',
               className: 'global-style'
             }}
@@ -68,7 +68,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#000022',
+              color: '#fff',
               size: '25px',
               className: 'global-style'
             }}

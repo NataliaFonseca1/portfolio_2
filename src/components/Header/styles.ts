@@ -4,12 +4,7 @@ import { TiThMenu } from 'react-icons/ti'
 
 export const HeaderContainer = styled.div`
   height: 180px;
-  background-image: radial-gradient(
-    circle at 2.05% 32.55%,
-    #4b5eba 0,
-    #102e69 50%,
-    #000022 100%
-  );
+
   ul {
     display: flex;
   }

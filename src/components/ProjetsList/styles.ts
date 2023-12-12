@@ -27,7 +27,7 @@ export const Card = styled.div`
 
   padding: 25px;
   border-radius: 8.842px;
-  border: 3px solid var(--1, #000022);
+  border: 3px solid var(--1, #fff);
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
 
@@ -43,7 +43,7 @@ export const Card = styled.div`
   }
   .languagens {
     border-radius: 8.842px;
-    border: 2px solid var(--1, #000022);
+    border: 2px solid var(--1, #fff);
     justify-content: space-between;
     text-align: center;
   }

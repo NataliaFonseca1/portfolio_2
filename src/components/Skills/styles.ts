@@ -4,11 +4,11 @@ import { cores } from '../../styles/styles'
 export const MarqueeContainer = styled.div`
   display: block;
   padding-top: 25px;
-  background-color: #ffff;
+  //background-color: #ffff;
   height: 300px;
   justify-content: center;
   h1 {
-    color: #000022;
+    color: #fff;
   }
   h2 {
     font-size: 14px;

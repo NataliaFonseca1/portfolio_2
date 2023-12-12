@@ -5,7 +5,7 @@ export const ListContainer = styled.div`
   padding-top: 56px;
   text-align: center;
   margin: 0 auto;
-  background-color: #fff;
+  //background-color: #fff;
 
   .react-tabs__tab-list {
     border-bottom: transparent;
@@ -24,7 +24,7 @@ export const ListContainer = styled.div`
     background: transparent;
     text-align: center;
     h1 {
-      color: #000020;
+      color: #fff;
     }
 
     &::after {
@@ -38,7 +38,7 @@ export const ListContainer = styled.div`
     }
 
     &.react-tabs__tab--selected::after {
-      background-color: #000020;
+      background-color: #fff;
     }
   }
   .TabItens {
@@ -46,10 +46,10 @@ export const ListContainer = styled.div`
   }
 `
 export const CardList = styled.li`
-  border: 4px solid #000020;
+  border: 4px solid #fff;
   margin-top: 25px;
   p {
-    color: #000020;
+    color: #fff;
     text-align: center;
     margin: 15px;
   }
@@ -60,6 +60,6 @@ export const CardList = styled.li`
   }
   h2 {
     padding-top: 15px;
-    color: #000020;
+    color: #fff;
   }
 `

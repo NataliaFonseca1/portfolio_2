@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md'
 import { cores } from '../styles/styles'
 
 export const Linkedin = styled(FaLinkedin)`
-  color: #000022;
+  color: #fff;
 `
 export const Email = styled(MdEmail)`
   color: ${cores.white};
@@ -24,13 +24,13 @@ export const LinkCard = styled.ul`
     display: flex;
     align-items: center;
     border-radius: 8.842px;
-    border: 3px solid var(--1, #000022);
+    border: 3px solid var(--1, #fff);
     padding: 5px;
     height: 40px;
     margin: 2px;
   }
   span {
-    color: #000022;
+    color: #fff;
     font-size: 18px;
   }
   a {

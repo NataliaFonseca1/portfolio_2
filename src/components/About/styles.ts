@@ -23,10 +23,10 @@ export const Button = styled.button`
   width: 204px;
   height: 56px;
   border-radius: 8.842px;
-  border: 3px solid var(--1, #000022);
+  border: 3px solid var(--1, #fff);
   cursor: pointer;
   p {
-    color: #000022;
+    color: #ffff;
     font-weight: bolder;
   }
 `

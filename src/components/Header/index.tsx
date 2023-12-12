@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <S.HeaderContainer onMouseLeave={closeMenu}>
-      <div className="container">
+      <div>
         <S.navContainer>
           <div>
             <img src="" alt="" />

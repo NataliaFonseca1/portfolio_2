@@ -14,7 +14,7 @@ function App() {
     <>
       <EstiloGlobal />
 
-      <div>
+      <div className="container">
         <Header />
         <Hero />
         <About />
