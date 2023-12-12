@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { cores } from '../../styles/styles'
 //import { FaCode } from 'react-icons/fa'
 import { TiThMenu } from 'react-icons/ti'
 

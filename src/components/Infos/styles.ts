@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { cores } from '../../styles/styles'
 
 export const ListContainer = styled.div`
   padding-bottom: 56px;

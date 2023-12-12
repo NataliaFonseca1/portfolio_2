@@ -1,6 +1,4 @@
 import { styled } from 'styled-components'
-import { cores } from '../../styles/styles'
-import Links from '../../Links'
 
 export const HeroContainer = styled.div`
   display: flex;
