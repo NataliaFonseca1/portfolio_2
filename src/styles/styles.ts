@@ -15,7 +15,7 @@ export const EstiloGlobal = createGlobalStyle`
 }
 
 body{
-  background-image: radial-gradient(circle at 40.55% 66.36%, #6045ae 0, #222594 50%, #000c7b 100%);
+  background-image: radial-gradient(circle at 60.46% 62.47%, #4d666c 0, #31555f 25%, #074250 50%, #003042 75%, #002136 100%);
 }
 .container{
 
