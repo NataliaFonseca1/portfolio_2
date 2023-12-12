@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { cores } from '../../styles/styles'
-import Links from '../../Links'
 //import { FaCode } from 'react-icons/fa'
 
 export const HeaderContainer = styled.div`
@@ -23,7 +22,4 @@ export const LinksContainer = styled.div`
   display: flex;
   margin: 0 auto;
   padding-bottom: 55px;
-  ${Links} {
-    color: 25px;
-  }
 `
