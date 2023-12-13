@@ -16,7 +16,6 @@ const Header = () => {
       <div>
         <S.navContainer>
           <div>
-            <img src="" alt="" />
             <h2>&lt;/&gt;</h2>
           </div>
           <S.Menu>

@@ -27,7 +27,7 @@ export const Card = styled.div`
 
   padding: 25px;
   border-radius: 8.842px;
-  border: 3px solid var(--1, #fff);
+  border: 3px solid var(--1, #15a182);
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
 
@@ -46,14 +46,15 @@ export const Card = styled.div`
     border: 2px solid var(--1, #fff);
     justify-content: space-between;
     text-align: center;
+    padding: 5px;
+    margin: 0 auto;
   }
 `
 export const TagsContainer = styled.div`
   display: flex;
-  width: 300px;
+  width: 340px;
   margin: 0 auto;
   text-align: center;
-  gap: 5px;
 `
 export const LinksContainer = styled.div`
   display: flex;
@@ -86,9 +87,11 @@ export const Down = styled(FaSearch)`
   cursor: pointer;
 `
 export const CardContainer = styled.div`
+  padding-top: 56px;
+  padding-bottom: 156px;
   .swiperSlide {
-    width: 450px;
-    height: 650px;
+    width: 399px;
+
     background: transparent;
   }
   .swiper-container {
@@ -100,5 +103,11 @@ export const CardContainer = styled.div`
     cursor: grab;
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+  .swiper-button-next {
+    color: #15a182;
+  }
+  .swiper-button-prev {
+    color: #15a182;
   }
 `

@@ -32,7 +32,7 @@ export const navContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #ffff;
+  color: #15a182;
   width: 100%;
   margin: 0 auto;
   span {
@@ -41,7 +41,7 @@ export const navContainer = styled.nav`
   }
 `
 export const MenuIcon = styled(TiThMenu)`
-  color: #ffff;
+  color: #15a182;
   border: none;
   z-index: 2;
 `

@@ -30,15 +30,7 @@ export const ContentContainer = styled.div`
     line-height: normal;
   }
   h2 {
-    background-image: radial-gradient(
-      circle at 2.05% 32.55%,
-      #4b5eba 0,
-      #102e69 50%,
-      #000022 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #15a182;
     font-family: Roboto;
     font-size: 78px;
     font-style: normal;

@@ -4,13 +4,13 @@ import * as S from './styles'
 const Footer = () => {
   return (
     <S.HeaderContainer>
-      <div>
-        <h1>Meus contatos</h1>
-      </div>
+      <S.TextContainer>
+        <h2>NEED A DEVELOPER?</h2>
+        <h1>Let's work together</h1>
+      </S.TextContainer>
       <S.LinksContainer>
         <Links />
       </S.LinksContainer>
-
       <p>Desenvolvido por Natália Fonseca</p>
     </S.HeaderContainer>
   )

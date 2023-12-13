@@ -4,6 +4,7 @@ import { FaWhatsappSquare } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import { IconContext } from 'react-icons'
+
 const Links = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#fff',
+              color: '#15a182',
               size: '25px',
               className: 'global-style'
             }}
@@ -29,7 +30,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#ffff',
+              color: '#15a182',
               size: '25px',
               className: 'global-style'
             }}
@@ -47,7 +48,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#fff',
+              color: '#15a182',
               size: '25px',
               className: 'global-style'
             }}
@@ -68,7 +69,7 @@ const Links = () => {
         <li>
           <IconContext.Provider
             value={{
-              color: '#fff',
+              color: '#15a182',
               size: '25px',
               className: 'global-style'
             }}

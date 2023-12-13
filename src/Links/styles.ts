@@ -24,13 +24,13 @@ export const LinkCard = styled.ul`
     display: flex;
     align-items: center;
     border-radius: 8.842px;
-    border: 3px solid var(--1, #fff);
+    border: 3px solid var(--1, #15a182);
     padding: 5px;
     height: 40px;
     margin: 2px;
   }
   span {
-    color: #fff;
+    color: #15a182;
     font-size: 18px;
   }
   a {

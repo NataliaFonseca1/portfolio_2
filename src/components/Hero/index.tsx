@@ -1,5 +1,5 @@
 import * as S from './styles'
-import perfil from '../../assets/perfil.jpeg'
+import perfil from '../../assets/perfil4.png'
 import Links from '../../Links'
 const Hero = () => {
   return (

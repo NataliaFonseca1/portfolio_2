@@ -9,7 +9,8 @@ export const AboutContainer = styled.div`
   padding-top: 156px;
   h1 {
     color: #fff;
-    padding-bottom: 25px;
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
 `
 export const ButtonContainer = styled.div`
@@ -23,7 +24,7 @@ export const Button = styled.button`
   width: 204px;
   height: 56px;
   border-radius: 8.842px;
-  border: 3px solid var(--1, #fff);
+  border: 3px solid var(--1, #15a182);
   cursor: pointer;
   p {
     color: #ffff;

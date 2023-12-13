@@ -5,18 +5,22 @@ import { cores } from '../../styles/styles'
 
 export const HeaderContainer = styled.div`
   display: grid;
-
   color: ${cores.white};
-  h1 {
-    text-align: center;
-    span {
-      color: ${cores.white};
-    }
-  }
   p {
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 30px;
+  }
+`
+export const TextContainer = styled.div`
+  margin: 0 auto;
+  color: ${cores.white};
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
   }
 `
 export const LinksContainer = styled.div`

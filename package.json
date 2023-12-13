@@ -10,22 +10,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/styled-components": "^5.1.32",
+    "bootstrap-icons": "^1.11.2",
+    "mdb-react-ui-kit": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.2",
-    "react-icons": "^4.12.0",
     "react-id-swiper": "^4.0.0",
     "react-slick": "^0.29.0",
-    "react-tabs": "^6.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.1",
     "swiper": "^11.0.5"
   },
   "devDependencies": {
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
     "@types/react-slick": "^0.23.12",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",
@@ -38,7 +42,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "prettier": "3.1.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "vite": "^5.0.0"
   }
 }

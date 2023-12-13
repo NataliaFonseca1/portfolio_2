@@ -3,12 +3,12 @@ import { cores } from '../../styles/styles'
 
 export const MarqueeContainer = styled.div`
   display: block;
-  padding-top: 25px;
-  //background-color: #ffff;
+  padding-bottom: 400px;
   height: 300px;
   justify-content: center;
   h1 {
-    color: #fff;
+    color: #ffff;
+    padding-bottom: 80px;
   }
   h2 {
     font-size: 14px;
