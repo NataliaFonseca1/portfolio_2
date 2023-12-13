@@ -57,7 +57,7 @@ export const ListContainer = styled.ul`
 `
 export const ImgContainer = styled.div`
   img {
-    width: 500px;
+    width: 450px;
     height: 450px;
   }
 `
