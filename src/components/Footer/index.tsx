@@ -3,7 +3,7 @@ import * as S from './styles'
 
 const Footer = () => {
   return (
-    <S.HeaderContainer id="contact">
+    <S.HeaderContainer>
       <S.TextContainer>
         <h2>NEED A DEVELOPER?</h2>
         <h1>Let's work together</h1>

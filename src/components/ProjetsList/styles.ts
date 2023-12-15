@@ -20,8 +20,6 @@ export const ListContainer = styled.div`
   }
 `
 export const Card = styled.div`
-  width: 400px;
-  height: 650px;
   display: grid;
   align-items: center;
 
@@ -51,7 +49,7 @@ export const Card = styled.div`
 `
 export const TagsContainer = styled.div`
   display: flex;
-  max-width: 285px;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -110,6 +108,7 @@ export const CardContainer = styled.div`
     cursor: grab;
     padding-top: 45px;
     padding-bottom: 45px;
+    width: 100%;
   }
   .swiper-button-next {
     color: #15a182;

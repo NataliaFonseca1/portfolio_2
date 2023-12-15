@@ -3,7 +3,7 @@ import { FaSquareGithub } from 'react-icons/fa6'
 import { FaWhatsappSquare } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
-import { cores } from '../styles/styles'
+import { breakpoints, cores } from '../styles/styles'
 
 export const Linkedin = styled(FaLinkedin)`
   color: #fff;
@@ -20,15 +20,19 @@ export const GitHub = styled(FaSquareGithub)`
 export const LinkCard = styled.ul`
   padding-top: 41px;
   display: flex;
-
+  flex-wrap: wrap;
+  @media screen and (max-width: ${breakpoints.mobile}) {
+    li {
+      width: 100%;
+    }
+  }
   li {
     display: flex;
     align-items: center;
     border-radius: 8.842px;
     border: 3px solid var(--1, #15a182);
-    padding: 5px;
+    padding: 8px;
     height: 40px;
-    margin: 2px;
   }
 
   span {
@@ -37,9 +41,9 @@ export const LinkCard = styled.ul`
   }
   a {
     text-decoration: none;
+    padding-left: 5px;
   }
   .global-style {
-    margin: 5px;
     size: 25px;
   }
 `

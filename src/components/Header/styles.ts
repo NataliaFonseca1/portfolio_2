@@ -39,9 +39,9 @@ export const navContainer = styled.nav`
   display: flex;
   align-items: center;
   color: #15a182;
-  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
+
   span {
     color: #ffff;
     width: 50px;

@@ -14,10 +14,10 @@ export const AboutContainer = styled.div`
   }
 `
 export const ButtonContainer = styled.div`
-  max-width: 212px;
   margin: 0 auto;
   padding-top: 25px;
   padding-bottom: 156px;
+  text-align: center;
 `
 export const Button = styled.button`
   background-color: transparent;
