@@ -14,7 +14,7 @@ type Props = {
 const ProjectsList = ({ Projects }: Props) => {
   return (
     <>
-      <h1>Projects List()</h1>
+      <h1 id="projects">Projects List()</h1>
       <S.CardContainer>
         <Swiper
           initialSlide={1}

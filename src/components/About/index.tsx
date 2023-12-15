@@ -8,7 +8,7 @@ const About = () => {
   }
   return (
     <>
-      <S.AboutContainer className="container">
+      <S.AboutContainer className="container" id="about">
         <h1>About me()</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia

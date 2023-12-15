@@ -20,6 +20,7 @@ export const GitHub = styled(FaSquareGithub)`
 export const LinkCard = styled.ul`
   padding-top: 41px;
   display: flex;
+
   li {
     display: flex;
     align-items: center;
@@ -29,6 +30,7 @@ export const LinkCard = styled.ul`
     height: 40px;
     margin: 2px;
   }
+
   span {
     color: #15a182;
     font-size: 18px;

@@ -8,7 +8,7 @@ type Props = {
 
 const Skills = ({ Skills }: Props) => {
   return (
-    <S.MarqueeContainer>
+    <S.MarqueeContainer id="skilss">
       <h1>
         Skills<span>()</span>
       </h1>

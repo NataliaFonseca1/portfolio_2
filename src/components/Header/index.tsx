@@ -18,16 +18,7 @@ const Header = () => {
           <div>
             <h2>&lt;/&gt;</h2>
           </div>
-          <S.Menu>
-            {ismenuactive && (
-              <ul>
-                <li>Sobre</li>
-                <li>Skills</li>
-                <li>Projetos</li>
-                <li>Trajetória</li>
-                <li>Contato</li>
-              </ul>
-            )}
+          <div>
             <button onMouseEnter={toggleMenu} className="menu">
               <S.Icon>
                 <>
@@ -35,7 +26,31 @@ const Header = () => {
                 </>
               </S.Icon>
             </button>
-          </S.Menu>
+            <div>
+              {ismenuactive && (
+                <ul>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#skilss">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#projects">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#education">Education</a>
+                  </li>
+                  <li>
+                    <a href="#experiences">Experiences</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              )}
+            </div>
+          </div>
         </S.navContainer>
       </div>
     </S.HeaderContainer>
