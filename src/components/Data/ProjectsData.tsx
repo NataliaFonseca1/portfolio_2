@@ -74,9 +74,9 @@ const ProjectsData: ProjectsClass[] = [
     description:
       'Lista de tarefas que visa auxiliar o usuário na organização das tarefas do dia a dia.',
     languages: ['Vue.js', 'HTML', 'Css'],
-    vercelUrl: 'https://wallet-app-frontend-ten.vercel.app/',
-    githubUrl: 'URL_DO_GITHUB_PARA_ESTE_PROJETO',
-    closeButton: 'https://github.com/NataliaFonseca1/Wallet-app-frontend'
+    vercelUrl: 'https://to-do-vue-eta.vercel.app/',
+    githubUrl: 'https://github.com/NataliaFonseca1/to_do_vue',
+    closeButton: ''
   }
 ]
 export default ProjectsData
