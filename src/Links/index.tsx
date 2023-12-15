@@ -39,7 +39,10 @@ const Links = () => {
               <MdEmail />
             </div>
           </IconContext.Provider>
-          <a href="mailto:fonsecanatalianf@gmail.com" target="_blank">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nataliafonsecanf@gmail.com"
+            target="_blank"
+          >
             <span>E-mail</span>
           </a>
         </li>
