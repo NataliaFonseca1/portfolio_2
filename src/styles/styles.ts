@@ -43,9 +43,8 @@ export const EstiloGlobal = createGlobalStyle`
   }
   @media screen and (max-width: 667px) {
     .container {
-      padding: 0 5px;
-      margin: 0 ;
-      max-width:1024px;
+      padding: 0 10px;
+
     }
   }
 `

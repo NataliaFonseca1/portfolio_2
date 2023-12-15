@@ -8,6 +8,7 @@ export const HeaderContainer = styled.div`
   ul {
     display: block;
     position: absolute;
+    margin-left: -40px;
   }
   ul > li {
     padding: 10px;
