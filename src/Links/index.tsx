@@ -40,7 +40,7 @@ const Links = () => {
             </div>
           </IconContext.Provider>
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=nataliafonsecanf@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=fonsecanatalianf@gmail.com"
             target="_blank"
           >
             <span>E-mail</span>
