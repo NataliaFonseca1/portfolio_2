@@ -21,11 +21,11 @@ export const ListContainer = styled.div`
 `
 export const Card = styled.div`
   width: 400px;
-  height: 600px;
+  height: 650px;
   display: grid;
   align-items: center;
 
-  padding: 25px;
+  padding: 20px;
   border-radius: 8.842px;
   border: 3px solid var(--1, #15a182);
   margin: 0 auto;
@@ -37,30 +37,37 @@ export const Card = styled.div`
   }
   h2 {
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 16px;
   }
   .languagens {
     border-radius: 8.842px;
     border: 2px solid var(--1, #fff);
-    justify-content: space-between;
     text-align: center;
-    padding: 5px;
+    padding: 1px;
     margin: 0 auto;
   }
 `
 export const TagsContainer = styled.div`
   display: flex;
-  width: 340px;
+  max-width: 285px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5 px;
+  p {
+    font-size: 10px;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+  }
 `
 export const LinksContainer = styled.div`
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  gap: 35px;
+  gap: 5px;
   a {
     color: ${cores.white};
     text-decoration: none;

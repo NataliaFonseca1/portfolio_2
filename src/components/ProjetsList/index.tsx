@@ -44,15 +44,21 @@ const ProjectsList = ({ Projects }: Props) => {
                   <h1>{project.title}</h1>
                   <img src={project.image} alt={project.title} />
                   <S.LinksContainer>
-                    <S.Github href={project.githubUrl}>Github</S.Github>
-                    <S.Vercel href={project.vercelUrl}>Vercel</S.Vercel>
+                    <a href={project.githubUrl}>
+                      <S.Github />
+                    </a>
+                    <div>
+                      <a href={project.vercelUrl}>
+                        <S.Vercel />
+                      </a>
+                    </div>
                   </S.LinksContainer>
                   <h2>{project.description}</h2>
                   <div>
                     <S.TagsContainer>
                       {project.languages.map((language, index) => (
                         <div key={index} className="languagens">
-                          {language}
+                          <p>{language}</p>
                         </div>
                       ))}
                     </S.TagsContainer>
