@@ -19,7 +19,7 @@ const Header = () => {
             <h2>&lt;/&gt;</h2>
           </div>
           <div>
-            <button onMouseEnter={toggleMenu} className="menu">
+            <button onClick={toggleMenu} className="menu">
               <S.Icon>
                 <>
                   <S.MenuIcon />

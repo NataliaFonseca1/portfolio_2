@@ -34,20 +34,25 @@ export const TextContainer = styled.div`
 export const ContentContainer = styled.div`
   @media screen and (max-width: ${breakpoints.mobile}) {
     flex-direction: column;
-    max-width: 350px;
+    max-width: 450px;
     margin: 0 auto;
   }
 
-  h1 {
+  > h1 {
     color: var(--Gray-5, #ffff);
     font-family: Roboto;
     font-size: 39px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+      font-size: 28px;
+      padding-top: 10px;
+    }
   }
 
-  h2 {
+  > h2 {
     color: #15a182;
     font-family: Roboto;
     font-size: 78px;
@@ -55,40 +60,33 @@ export const ContentContainer = styled.div`
     font-weight: 700;
     line-height: normal;
     letter-spacing: 7.8px;
+    @media screen and (max-width: ${breakpoints.mobile}) {
+      font-size: 38px;
+      padding-top: 10px;
+    }
   }
 
-  h3 {
+  > h3 {
     color: #ffff;
     font-family: Roboto;
     font-size: 57px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-  }
-`
-
-export const ListContainer = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 41px;
-  @media screen and (max-width: ${breakpoints.mobile}) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5px;
-    width: 50px;
-    gap: 5px;
-    max-width: ${breakpoints.mobile};
-    margin: 0 50px;
-    margin-bottom: 50px;
-    padding-top: 30px;
+    @media screen and (max-width: ${breakpoints.mobile}) {
+      font-size: 35px;
+      padding-top: 10px;
+    }
   }
 `
 
 export const ImgContainer = styled.div`
-  max-width: 100%;
+  max-width: 40%;
   overflow: hidden;
   margin: 0 auto;
+  @media screen and (max-width: ${breakpoints.mobile}) {
+    max-width: 90%;
+  }
 
   img {
     max-width: 100%;

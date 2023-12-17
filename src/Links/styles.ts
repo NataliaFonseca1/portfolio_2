@@ -31,7 +31,7 @@ export const LinkCard = styled.ul`
     align-items: center;
     border-radius: 8.842px;
     border: 3px solid var(--1, #15a182);
-    padding: 8px;
+    padding: 5px;
     height: 40px;
   }
 

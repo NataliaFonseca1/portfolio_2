@@ -3,12 +3,13 @@ import styled from 'styled-components'
 import { TiThMenu } from 'react-icons/ti'
 
 export const HeaderContainer = styled.div`
-  height: 180px;
+  height: 200px;
 
   ul {
     display: block;
     position: absolute;
-    margin-left: -40px;
+    margin-left: -55px;
+    background-color: #15a182;
   }
   ul > li {
     padding: 10px;

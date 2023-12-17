@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { cores } from '../../styles/styles'
+import { breakpoints, cores } from '../../styles/styles'
 import { LuGithub } from 'react-icons/lu'
 import { FaPlayCircle } from 'react-icons/fa'
 import { FaSearch } from 'react-icons/fa'
@@ -22,12 +22,15 @@ export const ListContainer = styled.div`
 export const Card = styled.div`
   display: grid;
   align-items: center;
-
+  width: 100%;
   padding: 20px;
   border-radius: 8.842px;
   border: 3px solid var(--1, #15a182);
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
+  @media screen and (max-width: ${breakpoints.mobile}) {
+    width: 85%;
+  }
 
   h1 {
     text-align: center;
@@ -54,6 +57,9 @@ export const TagsContainer = styled.div`
   text-align: center;
   padding-top: 20px;
   padding-bottom: 5 px;
+  :hover {
+    color: #15a182;
+  }
   p {
     font-size: 10px;
     padding: 2px;
@@ -94,6 +100,7 @@ export const Down = styled(FaSearch)`
 export const CardContainer = styled.div`
   padding-top: 56px;
   padding-bottom: 156px;
+
   .swiperSlide {
     width: 399px;
 

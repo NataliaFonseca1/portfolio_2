@@ -1,6 +1,6 @@
 import * as S from './styles'
 import perfil from '../../assets/perfil7.png'
-import Links from '../../Links'
+
 const Hero = () => {
   return (
     <>
@@ -13,9 +13,6 @@ const Hero = () => {
               Fonseca /&gt;
             </h2>
             <h3>Front-end Developer</h3>
-            <S.ListContainer>
-              <Links />
-            </S.ListContainer>
           </S.ContentContainer>
           <S.ImgContainer>
             <img src={perfil} alt="" />

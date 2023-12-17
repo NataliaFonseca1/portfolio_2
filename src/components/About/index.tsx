@@ -29,6 +29,9 @@ const About = () => {
           <S.Button onClick={DownloadCV}>
             <p>Download CV</p>
           </S.Button>
+          <S.Button>
+            <a href="#contact">Contact</a>
+          </S.Button>
         </S.ButtonContainer>
       </div>
     </>
