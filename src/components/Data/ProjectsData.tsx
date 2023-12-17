@@ -9,16 +9,6 @@ import wallet from '../../assets/wallet.png'
 
 const ProjectsData: ProjectsClass[] = [
   {
-    image: eplay,
-    title: 'E-Commerce para Loja de Games',
-    description:
-      'E-play é uma aplicação que visa auxiliar no crescimento e modernização das vendas de jogos online',
-    languages: ['React', 'Redux', 'Styled Components', 'Axios', 'TypeScript'],
-    vercelUrl: 'https://vercel.com/nataliafonseca1/e-play',
-    githubUrl: 'https://github.com/NataliaFonseca1/e-play',
-    closeButton: ''
-  },
-  {
     image: efood,
     title: 'E-Commerce para Restaurantes',
     description:
@@ -26,6 +16,16 @@ const ProjectsData: ProjectsClass[] = [
     languages: ['React', 'Redux', 'Styled Components', 'TypeScript', 'Axios'],
     vercelUrl: 'https://vercel.com/nataliafonseca1/efood',
     githubUrl: 'https://github.com/NataliaFonseca1/efood',
+    closeButton: ''
+  },
+  {
+    image: eplay,
+    title: 'E-Commerce para Loja de Games',
+    description:
+      'E-play é uma aplicação que visa auxiliar no crescimento e modernização das vendas de jogos online',
+    languages: ['React', 'Redux', 'Styled Components', 'Axios', 'TypeScript'],
+    vercelUrl: 'https://e-play-gray.vercel.app/',
+    githubUrl: 'https://github.com/NataliaFonseca1/e-play',
     closeButton: ''
   },
   {
