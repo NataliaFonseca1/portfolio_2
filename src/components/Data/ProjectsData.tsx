@@ -14,7 +14,7 @@ const ProjectsData: ProjectsClass[] = [
     description:
       'E-play é uma aplicação que visa auxiliar no crescimento e modernização das vendas de jogos online',
     languages: ['React', 'Redux', 'Styled Components', 'Axios', 'TypeScript'],
-    vercelUrl: 'https://eplay-one.vercel.app/',
+    vercelUrl: 'https://vercel.com/nataliafonseca1/e-play',
     githubUrl: 'https://github.com/NataliaFonseca1/e-play',
     closeButton: ''
   },
@@ -24,7 +24,7 @@ const ProjectsData: ProjectsClass[] = [
     description:
       'E-FOOD é uma aplicação que visa auxiliar bares e restaurantes ao oferecer comodidade e praticidade aos clientes no momento de escolher os pedidos.',
     languages: ['React', 'Redux', 'Styled Components', 'TypeScript', 'Axios'],
-    vercelUrl: 'https://efood-delta-sable.vercel.app/',
+    vercelUrl: 'https://vercel.com/nataliafonseca1/efood',
     githubUrl: 'https://github.com/NataliaFonseca1/efood',
     closeButton: ''
   },

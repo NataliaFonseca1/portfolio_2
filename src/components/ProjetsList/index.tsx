@@ -17,7 +17,7 @@ const ProjectsList = ({ Projects }: Props) => {
       <h1 id="projects">Projects List()</h1>
       <S.CardContainer>
         <Swiper
-          initialSlide={1}
+          initialSlide={0}
           effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
