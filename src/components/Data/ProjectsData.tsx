@@ -25,7 +25,7 @@ const ProjectsData: ProjectsClass[] = [
       'E-play é uma aplicação que visa auxiliar no crescimento e modernização das vendas de jogos online',
     languages: ['React', 'Redux', 'Styled Components', 'Axios', 'TypeScript'],
     vercelUrl: 'https://e-play-store.vercel.app/',
-    githubUrl: 'https://github.com/NataliaFonseca1/e-play',
+    githubUrl: 'https://github.com/NataliaFonseca1/e_play',
     closeButton: ''
   },
   {
