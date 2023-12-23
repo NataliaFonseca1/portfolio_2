@@ -22,7 +22,7 @@ const About = () => {
           dedico tempo e esforço para adquirir as habilidades técnicas
           necessárias para desempenhar com excelência a função de Desenvolvedora
           Front-End. Ao longo da minha carreira, justamente por ter tido
-          experiências em outra área, adquiri habilidades importantes, como
+          experiências em outra área, adquiri habilidades importantes,
           comunicação, gestão de tempo, trabalho em equipe e, agora, as trago
           comigo neste novo desafio. Como desenvolvedora, possuo habilidades em
           React, Redux, JavaScript, HTML5, CSS, Styled-Components, Cypress,

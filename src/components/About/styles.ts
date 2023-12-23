@@ -14,6 +14,7 @@ export const AboutContainer = styled.div`
   }
   p {
     text-align: justify;
+    word-spacing: 0.1px;
   }
 `
 export const ButtonContainer = styled.div`
