@@ -3,16 +3,18 @@ import styled from 'styled-components'
 import { TiThMenu } from 'react-icons/ti'
 
 export const HeaderContainer = styled.div`
-  height: 200px;
+  height: 190px;
 
   ul {
     display: block;
     position: absolute;
-    margin-left: -55px;
-    background-color: #15a182;
+    margin-left: -75px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--1, #15a182);
   }
   ul > li {
-    padding: 10px;
+    padding: 6px;
     cursor: pointer;
     font-family: Roboto, sans-serif;
     :hover {

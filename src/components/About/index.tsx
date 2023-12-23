@@ -3,7 +3,7 @@ import * as S from './styles'
 const About = () => {
   const DownloadCV = () => {
     const pdfUrl =
-      'https://docs.google.com/document/d/1FeDIsX4ec9DsglwgYlxEizlRP4YAlv2X/edit'
+      'https://drive.google.com/file/d/1aPzsEF2pKUWhNv6RGvzlp88cJ4GfYqLx/view?usp=sharing'
     window.open(pdfUrl, '_blank')
   }
   return (
@@ -11,17 +11,24 @@ const About = () => {
       <S.AboutContainer className="container" id="about">
         <h1>About me()</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia
-          ex voluptatem delectus sunt adipisci optio cum deleniti commodi
-          recusandae provident, eligendi veritatis quo tempora amet, illo
-          corrupti, necessitatibus eius. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Nisi officia ex voluptatem delectus sunt adipisci
-          optio cum deleniti commodi recusandae provident, eligendi veritatis
-          quo tempora amet, illo corrupti, necessitatibus eius. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Nisi officia ex
-          voluptatem delectus sunt adipisci optio cum deleniti commodi
-          recusandae provident, eligendi veritatis quo tempora amet, illo
-          corrupti, necessitatibus eius.
+          Iniciei minha carreira na área jurídica, e no meio dessa jornada,
+          encontrei meu caminho na tecnologia. Em um ambiente jurídico
+          desafiador, enxerguei na tecnologia a possibilidade de trazer inovação
+          e mudanças para a área. Minha motivação para inovar e enfrentar
+          ambientes desafiadores como o mercado jurídico me levou ao campo da
+          tecnologia, onde finalmente descobri minha verdadeira paixão. Sou uma
+          pessoa determinada e dedicada a alcançar tudo o que sonho. Minha
+          determinação funciona como um combustível para mim. constantemente
+          dedico tempo e esforço para adquirir as habilidades técnicas
+          necessárias para desempenhar com excelência a função de Desenvolvedora
+          Front End. Ao longo da minha carreira, justamente por ter tido
+          experiências em outra área, adquiri habilidades importantes, como
+          comunicação, gestão de tempo, trabalho em equipe e, agora, as trago
+          comigo neste novo desafio. Como desenvolvedora, possuo habilidades em
+          React, Redux, JavaScript, HTML5, CSS, Styled-Components, Cypress,
+          Jest, Bootstrap, jQuery, Git, Sass, Less, entre outras, que me tornam
+          capaz de contribuir positivamente para projetos de desenvolvimento em
+          diferentes setores e ambientes de TI.
         </p>
       </S.AboutContainer>
       <div>

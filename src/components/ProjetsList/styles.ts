@@ -29,7 +29,7 @@ export const Card = styled.div`
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   @media screen and (max-width: ${breakpoints.mobile}) {
-    width: 85%;
+    width: 86%;
   }
 
   h1 {
@@ -103,7 +103,6 @@ export const CardContainer = styled.div`
 
   .swiperSlide {
     width: 399px;
-
     background: transparent;
   }
   .swiper-container {

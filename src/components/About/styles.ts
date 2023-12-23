@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   color: ${cores.white};
   margin: 0 auto;
-  padding-top: 156px;
+  padding-top: 56px;
   h1 {
     color: #fff;
     padding-top: 56px;

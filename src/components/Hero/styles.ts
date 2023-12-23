@@ -17,7 +17,7 @@ export const Container = styled.div``
 
 export const TextContainer = styled.div`
   text-align: center;
-  padding-top: 156px;
+  padding-top: 126px;
 
   span {
     color: #fff;
