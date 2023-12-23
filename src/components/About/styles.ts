@@ -12,6 +12,9 @@ export const AboutContainer = styled.div`
     padding-top: 56px;
     padding-bottom: 56px;
   }
+  p {
+    text-align: justify;
+  }
 `
 export const ButtonContainer = styled.div`
   display: flex;

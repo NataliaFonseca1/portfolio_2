@@ -16,11 +16,8 @@ export const CardList = styled.li`
   margin-top: 25px;
   p {
     color: #fff;
-    text-align: center;
+    text-align: justify;
     margin: 15px;
-  }
-
-  p {
     padding-top: 15px;
     padding-bottom: 15px;
   }
