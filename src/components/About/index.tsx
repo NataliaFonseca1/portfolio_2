@@ -3,7 +3,7 @@ import * as S from './styles'
 const About = () => {
   const DownloadCV = () => {
     const pdfUrl =
-      'https://drive.google.com/file/d/1aPzsEF2pKUWhNv6RGvzlp88cJ4GfYqLx/view?usp=sharing'
+      'https://drive.google.com/file/d/1BA90LwodpKxHkLcgx5T5U9R5heccxymD/view?usp=drive_link'
     window.open(pdfUrl, '_blank')
   }
   return (
@@ -11,24 +11,22 @@ const About = () => {
       <S.AboutContainer className="container" id="about">
         <h1>About me()</h1>
         <p>
-          Iniciei minha carreira na área jurídica e, no meio dessa jornada,
-          encontrei meu caminho na tecnologia. Em um ambiente jurídico
-          desafiador, enxerguei na tecnologia a possibilidade de trazer inovação
-          e mudanças para a área. Minha motivação para inovar e enfrentar
-          ambientes desafiadores como é no mercado jurídico, me levou ao campo
-          da da tecnologia, onde finalmente descobri minha verdadeira paixão.
-          pessoa determinada e dedicada a alcançar tudo o que sonho. Minha
-          determinação funciona como um combustível para mim. Constantemente,
-          dedico tempo e esforço para adquirir as habilidades técnicas
-          necessárias para desempenhar com excelência a função de Desenvolvedora
-          Front-End. Ao longo da minha carreira, justamente por ter tido
-          experiências em outra área, adquiri habilidades importantes,
-          comunicação, gestão de tempo, trabalho em equipe e, agora, as trago
-          comigo neste novo desafio. Como desenvolvedora, possuo habilidades em
-          React, Redux, JavaScript, HTML5, CSS, Styled-Components, Cypress,
-          Jest, Bootstrap, jQuery, Git, Sass, Less, entre outras, que me tornam
-          capaz de contribuir positivamente para projetos de desenvolvimento em
-          diferentes setores e ambientes de TI.
+          Iniciei minha carreira no mundo jurídico e, ao longo dessa jornada,
+          encontrei meu verdadeiro propósito na tecnologia. Em um ambiente
+          jurídico desafiador, percebi na tecnologia a oportunidade de
+          introduzir inovação e transformação na área. Minha motivação para
+          enfrentar desafios, comuns no mercado jurídico, me conduziu ao campo
+          da tecnologia, onde finalmente descobri minha verdadeira paixão.Com
+          determinação e esforço contínuos me dediquei a adquirir as habilidades
+          técnicas essenciais para desempenhar com excelência a função
+          Desenvolvedora Front-End. Ao longo da minha carreira, adquiri
+          habilidades valiosas em comunicação, gestão de tempo e trabalho em
+          equipe, provenientes da minha experiência em outra área. Agora, trago
+          essas habilidades para este novo desafio como desenvolvedora. Possuo
+          expertise em React, Redux, JavaScript, HTML5, CSS, Styled-Components,
+          Cypress, Jest, Bootstrap, jQuery, Git, Sass, Less, entre outras. Essas
+          habilidades me capacitam a contribuir de maneira positiva para
+          projetos de desenvolvimento em diversos setores e ambientes de TI.
         </p>
       </S.AboutContainer>
       <div>

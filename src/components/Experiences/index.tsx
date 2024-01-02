@@ -7,20 +7,22 @@ const Experiences = () => {
       <S.CardList>
         <h2>Desenvolvedora Front End Freelancer</h2>
         <p>
-          Atualmente, desenvolvo projetos que objetivam tornar o dia a dia do
-          usuário mais organizado e prático. Sempre ao começar um novo projeto,
-          me preocupo com sua efetividade no mundo e o que ele pode agregar
-          positivamente ao usuário. Acredito que, muito além de utilizar
-          corretas na execução do projeto, bem como zelar por um código limpo,
-          organizado e ágil, me atento sempre ao usuário final, zelando por cada
-          detalhe no projeto e objetivando uma experiência positiva. Ao
-          desenvolver projetos que geram valor, busco sempre entender as regras
-          de negócio, unindo a técnica com o bom desempenho da aplicação. Em
-          meus projetos, atualmente, utilizo como principal linguagem o
-          JavaScript, unindo-o ao React.js e Typscript. Realizo integrações com
-          API, bem como controle de estados. Além de realizar testes na
-          aplicação, estou à disposição para contribuir positivamente em seu
-          projeto, visando sempre gerar bons resultados e inovação!
+          Atualmente, estou imersa no desenvolvimento de projetos que têm como
+          objetivo inovar e promover praticidade aos usuários. Ao iniciar um
+          novo projeto, minha atenção se volta não apenas para a correta
+          implementação técnica, mas principalmente para sua efetividade no
+          mundo real e como ele pode impactar positivamente. Zelo pelo
+          desenvolvimento de um código limpo, organizado e ágil. Minha ênfase
+          está no usuário final, buscando aprimorar cada detalhe para garantir
+          uma experiência positiva e única. No decorrer dos meus projetos, busco
+          compreender minuciosamente as regras de negócio, harmonizando a
+          expertise técnica com um desempenho otimizado da aplicação. Minha
+          linguagem principal é o JavaScript, complementado por React.js e
+          Typscript. Realizo integrações com APIs e implemento controle de
+          estados. Além disso, executo testes na aplicação para assegurar a
+          robustez do sistema. Estou entusiasmada para contribuir positivamente
+          em seu projeto, sempre com o compromisso de gerar resultados sólidos e
+          inovadores!
         </p>
       </S.CardList>
       <S.CardList>
