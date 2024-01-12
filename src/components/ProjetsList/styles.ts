@@ -52,7 +52,7 @@ export const Card = styled.div`
 `
 export const TagsContainer = styled.div`
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -61,7 +61,7 @@ export const TagsContainer = styled.div`
     color: #15a182;
   }
   p {
-    font-size: 10px;
+    font-size: 12px;
     padding: 2px;
     text-align: center;
     justify-content: center;

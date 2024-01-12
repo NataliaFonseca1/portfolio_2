@@ -3,7 +3,7 @@ import * as S from './styles'
 const About = () => {
   const DownloadCV = () => {
     const pdfUrl =
-      'https://drive.google.com/file/d/1BA90LwodpKxHkLcgx5T5U9R5heccxymD/view?usp=drive_link'
+      'https://drive.google.com/file/d/19Eqe3Qyaj_SEaODkvB4rBEjZJch_7_n9/view?usp=sharing'
     window.open(pdfUrl, '_blank')
   }
   return (

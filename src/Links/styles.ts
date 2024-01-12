@@ -21,7 +21,9 @@ export const LinkCard = styled.ul`
   padding-top: 41px;
   display: flex;
   flex-wrap: wrap;
+  padding-right: 8px;
   @media screen and (max-width: ${breakpoints.mobile}) {
+    padding-right: 0;
     li {
       width: 100%;
     }
